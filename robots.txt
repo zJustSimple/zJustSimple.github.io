@@ -1,0 +1,26 @@
+User-agent: *
+Disallow: /MyPage/
+Disallow: /mypage/
+Disallow: /info/terms
+Disallow: /info/terms/privacy
+Disallow: /info/terms/subscription
+Disallow: /webservice/
+Disallow: /Webservice/
+Disallow: /webservices/
+Disallow: /Webservices/
+Disallow: /s/
+
+User-agent: AhrefsBot
+Disallow: / 
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SiteBot
+Disallow: /
+
+User-agent: WBSearchBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
