@@ -1,1 +1,0 @@
-# zJustSimple.github.io
