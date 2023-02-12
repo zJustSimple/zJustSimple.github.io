@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0075e3;
+      }
+    </style>
+  </defs>
+  <title>Asset 30</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <polygon class="cls-1" points="12 12 0 12 0 6 3 6 3 8 2 8 2 10 10 10 10 9 12 9 12 12"/>
+      <polygon class="cls-1" points="12 6 10 6 10 2 6 2 6 0 12 0 12 6"/>
+      <polygon class="cls-1" points="7 8 5 8 5 5.59 9.29 1.29 10.71 2.71 7 6.41 7 8"/>
+    </g>
+  </g>
+</svg>

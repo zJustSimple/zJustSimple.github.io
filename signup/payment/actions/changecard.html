@@ -1,0 +1,163 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+
+
+
+
+
+    <meta property="og:image" content="/dist/assets/images/logos/social/11.png"/>
+
+
+
+<title>Liceunet.ro</title>
+<link rel="icon" href="../../../dist/assets/images/icons/favicons/11.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="../../../dist/assets/images/icons/favicons/11.png"/>
+<meta name="apple-mobile-web-app-title" content="Liceunet.ro">
+<meta name="application-name" content="Liceunet.ro"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+<meta name="msapplication-config" content="none"/>
+<link rel="stylesheet" type="text/css" href="../../../dist/vd-c1060f85efa2bd0e57c26b485f9edbcb/main.min.css"/>
+    <meta name="Robots" content="noindex, nofollow">
+</head>
+<body class="sign-up-layout">
+<header>
+    <div class="logo">
+        <a href="https://liceunet.ro/">
+            <img src="../../../dist/assets/images/logos/11.svg" alt="Liceunet.ro"/>
+        </a>
+    </div>
+
+</header>
+
+
+<main class="container">
+
+    
+
+<div class="signup-step payment">
+
+    <h1 class="h2">Schimbă cardul de credit pentru Membru VIP.</h1>
+
+    <div class="form form-light stacked" id="freepay-form">
+        <div class="payment-summary">
+            <label>Achiziționezi</label>
+            <div>
+                Ai schimbat cardul de credit ce este folosit la reînnoirea automată a abonamentului Membru VIP. Acesta va fi reînnoit data viitoare pe 02-03-2023
+            </div>
+        </div>
+
+        <div class="g payment-terms">
+            <div class="g-c">
+                <div class="group">
+                    <div class="checkbox ">
+    <label>
+        <input data-isrequired="true" id="Terms" name="Terms" type="checkbox" value="true" /><input name="Terms" type="hidden" value="false" />
+        <div class="input-dud">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 342.357 342.357">
+                <polygon points="290.04,33.286 118.861,204.427 52.32,137.907 0,190.226 118.862,309.071 342.357,85.606 "/>
+            </svg>
+        </div>
+        <div>Accept <a href="../../../info/terms/subscription/74ddfe10-4ee4-4ef0-82d3-f5e3c9f99ff3.html" target="_blank">termenii abonamentului</a>.</div>
+    </label>
+</div>
+                </div>
+            </div>
+        </div>
+
+            <div class="g payment-legal-summary">
+                Click pe &quot;Deschideți fereastra de plată&quot; pentru a intra &#238;n posesia abonamentului Membru VIP. Abonamentul &#238;ncepe odată cu procesarea plății acestuia. Abonamentul se va re&#238;nnoi automat la fiecare 30 de zile, p&#226;nă &#238;n momentul &#238;n care te-ai decis să renunți la el.
+            </div>
+
+        <div class="g">
+            <div class="m-auto">
+                <button class="sn-button primary" type="submit">
+    <span class="sn-button-text">
+        Deschideți fereastra de plată
+    </span>
+    <span class="sn-button-arrow">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.57 11.3" width="14px" height="14px">
+            <g>
+                <rect fill="#fff" x="4" y="0.64" width="2" height="10" transform="translate(-0.64 10.64) rotate(-90)"/>
+                <polygon fill="#fff" points="7.75 11.3 6.25 9.97 9.94 5.79 6.23 1.27 7.77 0 12.57 5.83 7.75 11.3"/>
+            </g>
+        </svg>
+    </span>
+</button>
+            </div>
+        </div>
+        <div class="g">
+            <div class="m-auto">
+                <div class="payment-assurance">
+                    <svg class="lock">
+                        <g>
+                            <rect x="12" y="7" width="4" height="2"/>
+                            <rect x="12" y="10" width="4" height="2"/>
+                            <rect x="12" y="13" width="4" height="2"/>
+                            <path d="M11,5a1,1,0,0,1-1-1A2,2,0,0,0,6,4,1,1,0,0,1,4,4a4,4,0,0,1,8,0A1,1,0,0,1,11,5Z"/>
+                            <path d="M14,18H2a2,2,0,0,1-2-2V6A2,2,0,0,1,2,4H14a2,2,0,0,1,2,2V8H14V6H2V16H14V14h2v2A2,2,0,0,1,14,18Z"/>
+                        </g>
+                    </svg>
+                    <div>Plată securizată de Freepay.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</main>
+
+<script src="../../../dist/assets/statics/vd-7e1b0e3b6a74b1f7669d2a19d9fd9d51/polyfills.min.js"></script>
+<script src="../../../dist/vd-2bf116a0124d7e23a990db852e650b5e/commons.client.js"></script>
+<script src="../../../dist/vd-57ae325b8bb3ddff3f36989caf22a982/main.client.js"></script>
+<script src="../../../dist/vd-8269df580863368590b8781e62bdf75f/signup.client.js"></script>
+
+
+    <script>
+        const terms = document.querySelector("#Terms");
+        const termsGroup = document.querySelector('.payment-terms .group');
+
+        if (terms) {
+            terms.addEventListener('change',
+                function() {
+                    if (terms.checked)
+                        termsGroup.classList.remove('val-err');
+                        document.querySelector('.sn-button').classList.remove('danger');
+                        document.querySelector('.sn-button').classList.add('primary');
+                });
+        }
+
+        document.querySelector('.sn-button')
+            .addEventListener('click', doRedirect);
+
+        function doRedirect() {
+            if (terms && !terms.checked) {
+                document.querySelector('.sn-button').classList.add('danger');
+                document.querySelector('.sn-button').classList.remove('primary');
+                termsGroup.classList.add('val-err');
+                return;
+            }
+            location.href = "https://gw.freepay.dk/PaymentWindow/77ac97bd-b59e-4c20-b827-8d601a2cf453";
+        }
+
+    </script>
+    <script src="../../../dist/vd-72ab1bdcd5bb616495af4b4da7959c75/mvcform.client.js"></script>
+
+<script>
+    window.setInterval(function() {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', '/Webservice/Session/KeepAlive');
+        xhr.send();
+    }, 60000);
+</script>
+</body>
+</html>
